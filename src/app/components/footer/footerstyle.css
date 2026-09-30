@@ -1,0 +1,29 @@
+footer{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(185, 9, 9);
+  align-items: center;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 80px;
+  z-index: 1000;
+  box-sizing: border-box
+}
+.lista{
+  color: rgb(0, 0, 0);
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin: 0;
+  padding: 30px;
+  font-size: 18px
+}
+.icone{
+  display: flex;
+
+}

@@ -1,0 +1,40 @@
+.headertotal{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(185, 9, 9);
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 115px;
+    z-index: 1000;
+    position: absolute;
+    box-sizing: border-box;
+}
+.headertotal{
+    display: inline-block;
+}
+.imagem{
+  width: 115px;
+  
+  text-align: center;
+}
+.headera{
+  display: flex;
+  justify-content: space-around;
+}
+.botoes{
+  background-color: rgb(255, 141, 11);
+  border-radius: 20px;
+  padding: 8px 20px;
+  width: fit-content;
+
+  
+}
+.botoes:hover{
+  background-color: rgb(255, 218, 7);
+  transition: 500ms;
+}
